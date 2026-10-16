@@ -4,6 +4,6 @@ const dltBtn = document.getElementById("dlt");
 dltBtn.addEventListener("click",function () {
 	const si = dropdown.selectedIndex;
 	// if(si!==-1||dropdown.options[si].value!==""){
-		dropdown.options.remove(selectedIndex);	
+		dropdown.options.remove(si);	
 	// }
 });
